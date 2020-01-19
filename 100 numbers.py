@@ -22,7 +22,7 @@ while counter < 100000:
             sum_1 = divider(data[:d])
             sum_2 = divider(data[d:])
             return sum_1 + sum_2
-        elif len(data):
+        elif len(data) == 1:
             return (data[0])
     
     data = np.arange(101)
