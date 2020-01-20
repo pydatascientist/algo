@@ -33,7 +33,7 @@ while counter< counter_stop:
     n = np.random.randint(0,10)
     r = np.random.randint(0,10)
     if (l+l)*1 + (i+l)*10 + (i+i)*100 + (n+e)*1000 + (a+i)*10000 + (d+k)*100000 ==  n*1 + a*10 + m*100 + r*1000 + e*10000 + g*100000 :
-        results.loc[j]=[a,g,d,e,i,k,l,m,n,e]
+        results.loc[j]=[a,g,d,e,i,k,l,m,n,r]
         j+=1
         counter+=1
     else:
